@@ -18,11 +18,12 @@ sudo service mongod start
 
 #bitcore-node-zelcash
 cd
-git clone https://github.com/TheTrunk/bitcore-node-zelcash
+git clone https://github.com/moooooooo/bitcore-node-zelcash
 cd bitcore-node-zelcash
 npm install
 cd bin
 chmod +x bitcore-node
+# TODO: check this next line - doesn't look right
 cp ~/zelcashBitcore/src/zelcashd ~/bitcore-node-zelcash/bin
 ./bitcore-node create mynode
 cd mynode
