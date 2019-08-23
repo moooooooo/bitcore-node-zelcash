@@ -5,15 +5,32 @@ A ZelCash full node for building applications and services with Node.js. A node 
 
 ## Explorer Guide
 ### Part 1. Zelcash with extended RPC functionalities
+### My fork
+```bash
+wget -qO- https://raw.githubusercontent.com/moooooooo/bitcore-node-zelcash/master/installZelcashd.sh | bash
+```
+### Original repo
 ```bash
 wget -qO- https://raw.githubusercontent.com/TheTrunk/bitcore-node-zelcash/master/installZelcashd.sh | bash
 ```
 ### Part 2. Latest Zelcash insight explorer = bitcore-node-zelcash with insight-api and insight-ui
+### My fork
+```bash
+wget -qO- https://raw.githubusercontent.com/moooooooo/bitcore-node-zelcash/master/installExplorer.sh | bash
+```
+### Original repo
 ```bash
 wget -qO- https://raw.githubusercontent.com/TheTrunk/bitcore-node-zelcash/master/installExplorer.sh | bash
 ```
 ## Install
-
+### My fork
+```bash
+git clone https://github.com/moooooooo/bitcore-node-zelcash.git
+cd bitcore-node-zelcash
+npm install
+bitcore-node start
+```
+### Origial repo
 ```bash
 git clone https://github.com/TheTrunk/bitcore-node-zelcash.git
 cd bitcore-node-zelcash
@@ -43,7 +60,7 @@ bitcore-node install https://github.com/yourname/helloworld
 This will create a directory with configuration files for your node and install the necessary dependencies. For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 
 ## Add-on Services
-
+### I haven't forked this yet
 There are several add-on services available to extend the functionality of Bitcore:
 
 - [Insight API](https://github.com/TheTrunk/insight-api)
